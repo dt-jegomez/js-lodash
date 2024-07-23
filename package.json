@@ -1,9 +1,15 @@
 {
   "name": "@dt-jegomez/lodash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": false,
   "main": "dist/lodash.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dt-jegomez/js-lodash.git"
+  },
+  "author": "Juan Gomez <go.juangomez23@gmail.com>",
+  "homepage": "https://github.com/dt-jegomez/js-lodash#readme",
   "sideEffects": false,
   "scripts": {
     "prepare": "husky install",
