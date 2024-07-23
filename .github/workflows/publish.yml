@@ -18,11 +18,7 @@ jobs:
     - name: Check npm configuration
       run: |
         npm config list
-        npm config get registry
-
-    - name: Check environment variables
-      run: |
-        echo "NODE_AUTH_TOKEN=$NODE_AUTH_TOKEN  
+        npm config get registry  
   
     - name: Checkout repository
       uses: actions/checkout@v2
