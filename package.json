@@ -1,6 +1,6 @@
 {
   "name": "@dt-jegomez/lodash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "private": false,
   "main": "dist/lodash.js",
