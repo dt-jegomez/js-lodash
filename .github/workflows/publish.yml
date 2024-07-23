@@ -12,6 +12,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Verify npm registry
+      run: npm config get registry
+
+    - name: Check npm configuration
+      run: |
+        npm config list
+        npm config get registry
+
+    - name: Check environment variables
+      run: |
+        echo "NODE_AUTH_TOKEN=$NODE_AUTH_TOKEN  
+  
     - name: Checkout repository
       uses: actions/checkout@v2
 
